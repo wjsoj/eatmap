@@ -178,6 +178,7 @@ async function initMap() {
       zoom: 4,
       pitch: 10,
       style: 'normal',
+      rotateEnable: false,
     }),
   });
   scene.addImage(
